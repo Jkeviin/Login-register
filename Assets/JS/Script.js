@@ -5,5 +5,5 @@ let formulario_Login = document.querySelector(".formulario__login");
 let formulario_register = document.querySelector(".formulario__register");
 
 function register() {
-
+    
 }
