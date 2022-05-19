@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Assets/CSS/style.css">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
     <title>Document</title>
 </head>
 <body>
@@ -29,23 +29,23 @@
                 <!--Login-->
                 <form action="" class="formulario__login">
                     <h2>Iniciar Sesión</h2>
-                    <input type="text" name="" id="" placeholder="Correo Electónico">
-                    <input type="password" name="" id="" placeholder="Contraseña">
-                    <button>Entrar</button>
+                    <input type="text" name="" placeholder="Correo Electónico">
+                    <input type="password" name="" placeholder="Contraseña">
+                    <button type="submit">Entrar</button>
                 </form>
                 <!--Registro-->
-                <form action="" class="formulario__register">
+                <form action="./php/registro_usuario_be.php" method="POST" class="formulario__register">  <!-- En este formulario se enviará el registro del usuario. -->
                     <h2>Registrarse</h2>
-                    <input type="text" name="" id="" placeholder="Nombre Completo">
-                    <input type="text" name="" id="" placeholder="Correo Electónico">
-                    <input type="text" name="" id="" placeholder="Usuario">
-                    <input type="password" name="" id="" placeholder="Contraseña">
-                    <button>Registrarse</button>
+                    <input type="text" name="nombre_completo" placeholder="Nombre Completo">
+                    <input type="email" name="correo" placeholder="Correo Electónico">
+                    <input type="text" name="usuario"placeholder="Usuario">
+                    <input type="password" name="contrasena" placeholder="Contraseña">
+                    <button type="submit">Registrarse</button>
                 </form>
             </div>
 
         </div>
     </main>
-    <script src="./Assets/JS/Script.js"></script>
+    <script src="./assets/JS/Script.js"></script>
 </body>
 </html>

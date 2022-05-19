@@ -40,7 +40,7 @@ main{
 }
 
 .caja__trasera div{
-    margin: 75px 40px;
+    margin: 100px 40px;
     color: white;
     transition: all 500ms; 
     -webkit-transition: all 500ms;
