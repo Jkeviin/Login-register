@@ -27,10 +27,10 @@
             <!--Formulario de Login y Registro-->
             <div class="contenedor__login-register">
                 <!--Login-->
-                <form action="" class="formulario__login">
+                <form action="./php/login_usuario_be.php" method = "POST" class="formulario__login">
                     <h2>Iniciar Sesión</h2>
-                    <input type="text" name="" placeholder="Correo Electónico">
-                    <input type="password" name="" placeholder="Contraseña">
+                    <input type="text" name="correo" placeholder="Correo Electónico">
+                    <input type="password" name="contrasena" placeholder="Contraseña">
                     <button type="submit">Entrar</button>
                 </form>
                 <!--Registro-->
@@ -40,6 +40,7 @@
                     <input type="email" name="correo" placeholder="Correo Electónico">
                     <input type="text" name="usuario"placeholder="Usuario">
                     <input type="password" name="contrasena" placeholder="Contraseña">
+                    <input type="password" name="contrasena_confirmacion" placeholder="Confirmar Contraseña">
                     <button type="submit">Registrarse</button>
                 </form>
             </div>
